@@ -1,0 +1,86 @@
+/* src/PrayerTracker.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .prayer-tracker {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  
+  .prayer-tracker h1 {
+    text-align: center;
+    color: #464646;
+    margin-bottom: 20px;
+  }
+  
+  .prayer-tracker ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .prayer-tracker li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .prayer-tracker li:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .prayer-tracker label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .prayer-tracker input[type="checkbox"] {
+    margin-right: 10px;
+    cursor: pointer;
+    width: 18px;
+    height: 18px;
+  }
+  
+  .prayer-tracker input[type="checkbox"]:checked + span {
+    text-decoration: line-through;
+    color: #000000;
+  }
+  
+  .prayer-tracker span {
+    font-size: 16px;
+    color: #313131;
+  }
+  
+  .prayer-tracker button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .prayer-tracker button:hover {
+    background-color: #0056b3;
+  }
+  
